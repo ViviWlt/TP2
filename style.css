@@ -52,9 +52,9 @@
 	border-radius: 18px;
 	-webkit-box-shadow: 0px 0px 6px #000000;
 	box-shadow: 0px 0px 6px #000000;
-	background-image: -webkit-gradient(linear, left top, right top, from(#d6e1ff), to(#dbffe7));
-	background-image: -webkit-linear-gradient(left, #d6e1ff, #dbffe7);
-	background-image: linear-gradient(left, #d6e1ff, #dbffe7);
+	background-image: -webkit-gradient(linear, left top, right top, from(#7EDE50), to(#45A318));
+	background-image: -webkit-linear-gradient(left, #7EDE50, #45A318);
+	background-image: linear-gradient(left, #7EDE50, #45A318);
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
 	opacity: 0.83;
@@ -62,13 +62,14 @@
 
 #edito h2
 {
-	color: #000;
-	font-size: 160%;
+	color: red;
+	font-size: 60%;
 	margin: 0 0 .5em;
+	font-weight: bolder;
 }
 
 #news
-{	
+{
 	float: left;
 	width: 40%;
 	padding: 20px;
@@ -92,4 +93,17 @@
 	text-align: right;
 	padding: 20px;
 	height: 1%;
+}
+
+
+#boldcolor
+{
+	color : #5098DE;
+	font-weight: bolder;
+	background-color: #C4F9FF;
+}
+
+#boldcolor:hover{
+	color : white;
+	background-color: green;
 }
